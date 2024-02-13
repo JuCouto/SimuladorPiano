@@ -5,6 +5,8 @@ Simulador de piano, criado a partir do desafio do Bootcamp de jogos da DIO (Digi
 <img src="https://github.com/JuCouto/SimuladorPiano/assets/100319483/4edf80d3-dc3e-4144-917f-35e35bd1afee" alt="piano" ></div>
 
 
+## Simulador publicado:
+https://jucouto.github.io/SimuladorPiano/
 
 <h3 align="left">Tecnologias utilizadas</h3>
 
@@ -14,6 +16,8 @@ Simulador de piano, criado a partir do desafio do Bootcamp de jogos da DIO (Digi
  <img align="Center" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 </div>
 </br>
+
+
 
 ### Como Jogar
 
