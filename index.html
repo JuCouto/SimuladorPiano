@@ -23,13 +23,15 @@
     <header>
       <h2>Virtual Piano</h2>
       <div class="column volume-slider">
-        <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any">
+        <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any"><!--step indica de quanto em quanto desejo alterar o valor-->
       </div>
       <div class="column keys-check">
         <span>Teclas</span> <input type="checkbox" checked>
       </div>
     </header>
     <ul class="piano-keys">
+      <!-- criando variavel chamada key "pendurando um valor, uma variável" em cada elemento html. recurso dataset, onde consigo guardar um valor 
+      no html como variáveis e acessar no javascript-->
       <li class="key white" data-key="a"><span>a</span></li>
       <li class="key black" data-key="w"><span>w</span></li>
       <li class="key white" data-key="s"><span>s</span></li>
