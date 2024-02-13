@@ -40,6 +40,7 @@ body {
     accent-color: #fff;
   }
   
+  /* classe pai precisa ter o relative */
   .keys-check input {
     width: 60px;
     height: 30px;
@@ -50,6 +51,7 @@ body {
     position: relative;
   }
   
+  /* estilo para o botão dentro da div de teclas, é o filgo precisa ter absolute para respeitar o pai*/
   .keys-check input::before {
     content: "";
     height: 20px;
@@ -57,7 +59,7 @@ body {
     background-color: #8c8c8c;
     top: 50%;
     left: 0.3rem;
-    border-radius: inherit;
+    border-radius: inherit;/*herdado do pai*/
     position: absolute;
     transform: translateY(-50%);
     transition: all 0.3s ease;
@@ -107,12 +109,13 @@ body {
     font-size: 1.13rem;
   }
   
-  .piano-keys .white.active {
-    box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+  /* tecla pressionada */
+  .piano-keys .white:active {
+    box-shadow: inset -10px 5px 20px rgba(0, 0, 0, 0.2);
     background: linear-gradient(to bottom #fff 0%, #eee 100%);
   }
   
-  .piano-keys .black.active {
+  .piano-keys .black:active {
     box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
     background: linear-gradient(to bottom #000, #434343);
   }
