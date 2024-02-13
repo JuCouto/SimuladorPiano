@@ -33,6 +33,7 @@ const handleVolume = (e) => {
   audio.volume = e.target.value;
 };
 
+// o toggle adiciona e remove a classe hide.
 const showHideKeys = () => {
   pianoKeys.forEach((key) => key.classList.toggle("hide"));
 };
